@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>HOME | AVCATELIER</title>
+  </head>
+  <body>
+    <!-- Main Wrapper -->
+    <div class="home">
+      <!-- Hero -->
+      <div class="hero">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">SALE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PRODUCT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">COLLECTION</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">NEWS</a>
+                </li>
+              </ul>
+            </div>
+            <a class="navbar-brand" href="#">AVCATELIER</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">SEARCH</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ACCOUNT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CART</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Modal Popup Login -->
+      <div class="modal modal2 fade login" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row">
+              <div class="col-md-10 offset-md-1">
+                <form>
+                  <div class="mb-4">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" />
+                    <div class="invalid-feedback">Your Email is not registered</div>
+                  </div>
+                  <div class="mb-5">
+                    <div style="justify-content: space-between; display: flex">
+                      <label for="password" class="form-label">Password</label>
+                      <label for="password" class="form-label">Forgot Password ?</label>
+                    </div>
+                    <input type="password" name="password" class="form-control" id="password" />
+                    <div class="invalid-feedback">Your password is invalid</div>
+                  </div>
+                  <button type="submit" class="btn btn-login">SIGN IN</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Collection -->
+      <div class="collection">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center title">NEW COLLECTION</h1>
+              <p class="text-center subtitle mb-4">FALL WINTER 2021</p>
+              <div class="row">
+                <div class="col-md-4 p-3">
+                  <a href="" style="text-decoration: none; color: black">
+                    <div class="card border-0">
+                      <img src="assets/img/dummy1.png" class="card-img-top" alt="..." />
+                      <div class="card-body justify-content-center d-grid">
+                        <p class="card-text text-center">Some quick example text to build on the card title and</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-md-4 p-3">
+                  <div class="card border-0">
+                    <img src="assets/img/dummy1.png" class="card-img-top" alt="..." />
+                    <div class="card-body justify-content-center d-grid">
+                      <p class="card-text text-center">Some quick example text to build on the card title and</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 p-3">
+                  <div class="card border-0">
+                    <img src="assets/img/dummy1.png" class="card-img-top" alt="..." />
+                    <div class="card-body justify-content-center d-grid">
+                      <p class="card-text text-center">Some quick example text to build on the card title and</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 justify-content-center d-grid mt-4">
+                  <button class="btn btn-dark btn-md btn-collection">VIEW ALL COLLECTION</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NEWS -->
+      <div class="news my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="text-center">NEWS</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    
+    -->
+
+    <!-- Manual Script -->
+    <script>
+      var myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {
+        keyboard: false,
+      });
+      // myModal.show();
+    </script>
+  </body>
+</html>

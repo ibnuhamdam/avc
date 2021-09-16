@@ -1,0 +1,164 @@
+/* CSS */
+
+@font-face {
+  font-family: 'joseFinSans';
+  src: url('../assets/font/JosefinSans-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'engr';
+  src: url('../assets/font/ENGR.TTF');
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'joseFinSans';
+}
+
+.home {
+  width: 100%;
+  height: 100%;
+}
+
+/* navbar */
+.home .navbar {
+  background: rgba(0, 0, 0, 0);
+}
+
+/* Modal */
+.home .modal2 {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.login .modal-content {
+  background: rgba(0, 0, 0, 0) !important;
+  border: 0;
+}
+
+.login form .form-label {
+  color: rgb(255, 255, 255) !important;
+  font-family: 'joseFinSans';
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.login form .form-control {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ffff;
+  border-radius: 0;
+  padding: 10px 20px;
+}
+
+.login form .btn-login {
+  border-radius: 0;
+  padding-top: 12px;
+  padding-bottom: 9px;
+  font-weight: 300;
+  background-color: #ffff;
+  color: black;
+  font-family: 'joseFinSans';
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.login form .btn-login:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ffff;
+  border: 1px solid #ffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .login form {
+    padding: 0 30px;
+  }
+  .login form .form-label {
+    font-size: 14px;
+  }
+}
+
+/* Hero */
+.home .hero {
+  width: 100%;
+  height: 105%;
+  background: url('../assets/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home .hero .navbar-collapse {
+  flex-grow: 0;
+}
+
+.home .hero .navbar .nav-item .nav-link {
+  font-family: 'joseFinSans';
+  font-size: 13px;
+}
+
+.home .hero .navbar .navbar-brand {
+  font-family: 'engr';
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.home .hero .navbar .nav-item {
+  padding-right: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home .hero .navbar-brand {
+    display: none;
+  }
+}
+
+/* Collection */
+
+.home .collection {
+  width: 100%;
+  height: 100%;
+  padding: 50px 30px;
+  margin-bottom: 80px;
+}
+
+.home .collection .title {
+  font-family: 'joseFinSans';
+  font-size: 34px;
+}
+
+.home .collection .subtitle {
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.home .collection .card:hover {
+  transform: scale(1.1);
+  transition: 0.4s all ease-in-out;
+}
+
+.home .collection .card {
+  transition: 0.4s all ease-in-out;
+}
+
+.home .collection .card .card-text {
+  font-weight: 300;
+  font-size: 17px;
+  max-width: 240px;
+  text-transform: uppercase;
+}
+
+.home .collection .btn-collection {
+  background-color: black;
+  padding: 10px 80px;
+  align-items: center;
+  border-radius: 0px;
+}
+
+.home .collection .btn-collection:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid black;
+}
