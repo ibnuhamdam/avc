@@ -11,11 +11,11 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/style.css" />
 
-    <title>{NAMA NEWS} | AVCATELIER</title>
+    <title>DETAIL {PRODUCT} | AVCATELIER</title>
   </head>
   <body>
     <!-- Main Wrapper -->
-    <div class="news-detail">
+    <div class="product-detail">
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-light" style="background: rgba(0, 0, 0, 0)">
         <div class="container-fluid">
@@ -57,36 +57,62 @@
         </div>
       </nav>
 
-      <div class="header-news"></div>
-
-      <div class="container">
-        <div class="row news-item">
-          <h3 class="title text-center mb-5">
-            Fall / Winter 2021 <br />
-            Fabrics Development
-          </h3>
-          <p class="desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolores facere doloribus quas quibusdam officia ad fuga doloremque laboriosam deserunt? Sequi iste beatae nobis molestiae voluptatem distinctio voluptates rem
-            eveniet!. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error minus dolores ducimus atque voluptatum facilis ullam ipsa cum magnam, quos pariatur soluta quo itaque porro sit repellat eaque cupiditate illo.. Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Cum eum ullam laboriosam soluta veritatis minus quasi dolorum quos doloremque tempora fugit nam voluptate debitis enim sint vitae accusantium, dolor provident!. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Corrupti aut inventore earum at. Incidunt natus fugit aperiam praesentium, eaque quae similique id eligendi amet laborum aliquam hic saepe nam recusandae?. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Nihil hic dolore nam perspiciatis repellendus adipisci officia iste temporibus voluptate asperiores, laboriosam pariatur repellat corporis aperiam eos, deleniti quos modi quasi!. <br />
-            <br />
-
-            orem ipsum dolor sit amet consectetur adipisicing elit. Non dolores facere doloribus quas quibusdam officia ad fuga doloremque laboriosam deserunt? Sequi iste beatae nobis molestiae voluptatem distinctio voluptates rem eveniet!.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error minus dolores ducimus atque voluptatum facilis ullam ipsa cum magnam, quos pariatur soluta quo itaque porro sit repellat eaque cupiditate illo.. Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Cum eum ullam laboriosam soluta veritatis minus quasi dolorum quos doloremque tempora fugit nam voluptate debitis enim sint vitae accusantium, dolor provident!. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Corrupti aut inventore earum at. Incidunt natus fugit aperiam praesentium, eaque quae similique id eligendi amet laborum aliquam hic saepe nam recusandae?. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Nihil hic dolore nam perspiciatis repellendus adipisci officia iste temporibus voluptate asperiores, laboriosam pariatur repellat corporis aperiam eos, deleniti quos modi quasi!. <br />
-            <br />
-
-            orem ipsum dolor sit amet consectetur adipisicing elit. Non dolores facere doloribus quas quibusdam officia ad fuga doloremque laboriosam deserunt? Sequi iste beatae nobis molestiae voluptatem distinctio voluptates rem eveniet!.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error minus dolores ducimus atque voluptatum facilis ullam ipsa cum magnam, quos pariatur soluta quo itaque porro sit repellat eaque cupiditate illo.. Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Cum eum ullam laboriosam soluta veritatis minus quasi dolorum quos doloremque tempora fugit nam voluptate debitis enim sint vitae accusantium, dolor provident!. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Corrupti aut inventore earum at. Incidunt natus fugit aperiam praesentium, eaque quae similique id eligendi amet laborum aliquam hic saepe nam recusandae?. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Nihil hic dolore nam perspiciatis repellendus adipisci officia iste temporibus voluptate asperiores, laboriosam pariatur repellat corporis aperiam eos, deleniti quos modi quasi! <br />
-            <br />
-          </p>
+      <div class="list-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-3 col-12" id="thumbnail-img">
+                  <a href="assets/img/shirt.png">
+                    <img src="assets/img/shirt.png" class="img-fluid mb-3" alt="..." />
+                  </a>
+                  <a href="assets/img/sweater.png">
+                    <img src="assets/img/sweater.png" class="img-fluid mb-3" alt="..." />
+                  </a>
+                  <a href="assets/img/shirt.png">
+                    <img src="assets/img/shirt.png" class="img-fluid mb-3" alt="..." />
+                  </a>
+                </div>
+                <div class="col-md-9 col-12 d-none d-md-block">
+                  <img src="assets/img/shirt.png" id="preview" class="img-fluid" alt="..." />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 detail-item">
+              <h3 class="product-name mb-4">Fall / Winter 2021 Fabrics Development</h3>
+              <h3 class="price">IDR 999.999</h3>
+              <div class="size mt-4">
+                <p>Size</p>
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                  <li class="nav-item mx-1" role="presentation">
+                    <button class="nav-link active" id="pills-s-tab" data-bs-toggle="pill" data-bs-target="#pills-s" type="button" role="tab" aria-controls="pills-s" aria-selected="true">S</button>
+                  </li>
+                  <li class="nav-item mx-1" role="presentation">
+                    <button class="nav-link" id="pills-m-tab" data-bs-toggle="pill" data-bs-target="#pills-m" type="button" role="tab" aria-controls="pills-m" aria-selected="true">M</button>
+                  </li>
+                  <li class="nav-item mx-1" role="presentation">
+                    <button class="nav-link" id="pills-l-tab" data-bs-toggle="pill" data-bs-target="#pills-l" type="button" role="tab" aria-controls="pills-l" aria-selected="true">L</button>
+                  </li>
+                  <li class="nav-item mx-1" role="presentation">
+                    <button class="nav-link" id="pills-xl-tab" data-bs-toggle="pill" data-bs-target="#pills-xl" type="button" role="tab" aria-controls="pills-xl" aria-selected="true">XL</button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-s" role="tabpanel" aria-labelledby="pills-s-tab">Only 2 pcs left</div>
+                  <div class="tab-pane fade show" id="pills-m" role="tabpanel" aria-labelledby="pills-m-tab">Only 5 pcs left</div>
+                  <div class="tab-pane fade show" id="pills-l" role="tabpanel" aria-labelledby="pills-l-tab">Only 3 pcs left</div>
+                  <div class="tab-pane fade show" id="pills-xl" role="tabpanel" aria-labelledby="pills-xl-tab">Only 12 pcs left</div>
+                </div>
+                <a href="" class="btn btn-black"> Add to cart </a>
+              </div>
+              <div class="desc">
+                <p style="text-align: justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quasi voluptate tempore totam vero sequi aut quam neque quos, provident, quo reprehenderit illo voluptatem perspiciatis facere eveniet nobis odit optio. Lorem,
+                  ipsum dolor sit amet consectetur adipisicing elit. Quasi, hic commodi? Deserunt quod ut officia ducimus ipsum, aspernatur quis, rerum at labore est error nam voluptate, similique eius enim atque.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -122,10 +148,11 @@
 
     <!-- Manual Script -->
     <script>
-      var myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {
-        keyboard: false,
+      $('#thumbnail-img a').on('click', function (e) {
+        e.preventDefault();
+
+        $('#preview').attr('src', $(this).attr('href'));
       });
-      myModal.show();
     </script>
   </body>
 </html>
